@@ -1,4 +1,4 @@
-# wisata_tapsel
+# wisataku
 
 ## Project setup
 ```
