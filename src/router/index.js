@@ -1,0 +1,23 @@
+import { createWebHistory, createRouter } from "vue-router";
+import Home from "./../views/Home.vue";
+import Detail from "./../views/Detail.vue";
+
+const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: Home,
+  },
+  {
+    path: "/wisata/:slug",
+    name: "Detail",
+    component: Detail,
+  },
+];
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
+
+export default router;
